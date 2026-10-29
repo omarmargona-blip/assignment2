@@ -1,0 +1,657 @@
+/* Global style */
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    font-family: Exo;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+ul{
+    padding: 0;
+    column-gap: 32px;
+    margin-right: 48px;
+    margin-block: 0;
+}
+li{
+    list-style: none;
+    
+}
+img{
+    width: 100%;
+    display: block;
+}
+.text-center{
+    text-align: center;
+}
+.p-80{
+    padding-block: 80px;
+}
+.w-85{
+    width: 85%;
+}
+.m-auto{
+    margin: auto;
+}
+.mb-16{
+    margin-block: 0 16px;
+}
+.mb-64{
+    margin-block: 0 64px;
+}
+.p-16-24{
+    padding: 16px  24px;
+}
+.d-flex{
+    display: flex;
+}
+.flex-wrap{
+    flex-wrap: wrap;
+}
+
+.justify-content-center{
+    justify-content: center;
+}
+.justify-content-between{
+    justify-content: space-between;
+}
+.align-items-center{
+    align-items: center;
+}
+.align-items-start{
+    align-items: start;
+}
+.f-36{
+    font-size: 36px;
+}
+.f-20{
+    font-size: 20px;
+}
+.bg-violet{
+    background-color: #7F22FE;
+}
+.bg-light-violet{
+    background-color: #F5F3FF;
+}
+.color-violet{
+    color: #7F22FE;
+}
+.color-Cerulean-Blue{
+    color: #0092B8;
+}
+.bg-cyan{
+    background-color: #CEFAFE;
+}
+.bg-green{
+    background-color: #D0FAE5;
+}
+.color-green{
+    color: #009966;
+}
+.bg-orange{
+    background-color: #FFEDD4;
+}
+.color-orange{
+    color: #F54A00;
+}
+.bg-blue{
+    background-color: #DFF2FE;
+}
+.color-blue{
+    color:#0084D1;
+}
+.bg-red{
+    background-color: #FFE4E6;
+}
+.color-red{
+    color:#EC003F;
+}
+.bg-gray{
+    background-color: #E5E7EB;
+}
+.bg-yellow{
+    background-color: #F0B100;
+}
+.bg-dark-navy{
+    background-color: #0B1220;
+}
+.color-white{
+    color: white;
+}
+.color-gray{
+    color: #9CA3AF;
+}
+@font-face {
+    font-family:Exo;
+    src: url(../fonts/Exo/Exo-VariableFont_wght.ttf);
+}
+
+
+/*~~~~~~~~~Start Navbar~~~~~~~~~~~ */
+
+
+.Navbar{
+    background-color: #F5F3FF;
+    border-bottom: 1.5px solid #EBE7FF;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1000;
+    
+}
+
+.logo{
+    width: 40px;
+    height: 40px;
+    margin-right: 8px;
+    border-radius: 10px;
+}
+.logo img{
+    width: 22.5px;
+}
+.Navbar span{
+    font-weight: bold;
+    font-size: 26px;
+}
+/*~~~~~~~~~End Navbar~~~~~~~~~~~ */
+
+/*~~~~~~~~~Start Hero~~~~~~~~~~~ */
+.hero-section{
+    background-color: white;
+    min-height: 100vh;
+    padding: 176px 0 96px 0 ;
+}
+.hero .inner{
+    padding: 0 20px;
+}
+.img-space{
+    padding: 20px;
+    border: 1.5px solid #E0E3E7;
+    border-radius: 20px;
+}
+.hero-left{
+    width: 50%;
+}
+.hero-left img{
+    border-radius: 20px;
+}
+.hero-img{
+    position: relative;
+}
+.img-space .badge{
+    color: white ;
+    padding: 6px 12px;
+    border-radius: 50px;
+    font-size: 15px ;
+    position: absolute;
+    bottom: 90%;
+    left: 6%;
+    font-weight: 700;
+}
+.hero-right{
+    width:50%
+}
+.hero-right .top-span{
+    margin-bottom: 16px;
+}
+.hero-right .top-content{
+    margin-block: 0 32px;
+}
+.hero-right .top-span span{
+    background-color: #A684FF   ;
+    color: white;
+    padding: 6px 12px;
+    margin-right: 12px ;
+    border-radius: 20px;
+}
+.hero-right h1{
+    font-size: 48px;
+    margin-block: 0 16px;
+}
+.hero-right .top-content p{
+    font-size: 20px;
+}
+.hero-right .mid-content{
+    margin-block: 0 32px;
+}
+.mid-content .s1{
+    font-size: 36px;
+    font-weight: 700;
+    margin-right: 16px;
+}
+.mid-content .s2{
+    font-size: 24px;
+    font-weight: 400;
+    text-decoration: line-through;
+    margin-right: 16px;
+}
+.mid-content .s3{
+    background: #FFE2E2;
+    color: #E7000B;
+    padding: 6px 12px;
+    border-radius: 20px;
+}
+.bottom-content .btn-1{
+    padding: 16px 32px;
+    width: 600px;
+    border: none;
+    margin-bottom: 16px;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    border-radius: 50px;
+}
+.bottom-content .btn-2{
+    padding: 16px 32px;
+    width: 600px;
+    background-color: white;
+    border: 1.5px solid #E0E3E7;
+    margin-bottom: 16px;
+    font-size: 20px;
+    font-weight: 700;
+    border-radius: 50px;
+}
+.bottom-content .btn-img{
+    height: 18px;
+    width: 22.5px;
+    margin-right: 12px;
+}
+
+
+/*~~~~~~~~~End Hero~~~~~~~~~~~ */
+
+/*~~~~~~~~~Start Key Features~~~~~~~~~~~ */
+
+.Key-Features{
+    min-height: 100vh;
+}
+
+.Featured-card{
+    width: 33.333%;
+    padding: 12px;
+    
+}
+.Featured-card .inner{
+    padding: 32px;
+    background-color: white;
+    border-radius: 20px
+}
+.v-logo{
+    width: 56px;
+    height: 56px;
+    margin-bottom: 24px;
+    
+    border-radius: 10px;
+}
+.v-logo img{
+    width: 23.8px;
+
+}
+.img-p{
+    margin-block: 0 8px;
+    font-weight: 600;
+}
+
+.Featured-card h3{
+    margin-block: 0 12px;
+    font-size: 24px;
+}
+.Feature-value{
+    margin-top: 28px;
+    border-top: 0.8px solid #EBE7FF;
+    padding-top: 20px;
+}
+.Featured-card span{
+    display: block;
+}
+.Featured-card .s2{
+    font-size: 14px;
+    font-weight: 400;
+    color: #777777;
+}
+.Featured-card .s1{
+    color: #6B4EA0;
+    font-size: 25.6px;
+    font-weight: 800;
+}
+.bottom-Featured{
+    margin-top: 48px;
+    padding: 40px;
+    border-radius: 30px;
+}
+.bottom-Featured .p1 {
+    margin-block: 0 8px;
+    color: #DDD6FF;
+    font-weight: 800;
+}
+.bottom-Featured h3{
+    margin-block: 0 8px;
+    font-size: 30px;
+    font-weight: 800;
+    color: white;
+}
+.bottom-Featured .p2{
+    margin-block: 0;
+    color: #DDD6FF;
+}
+.bottom-Featured a{
+    background-color: white;
+    padding: 16px 28px;
+    font-size: 18px;
+    font-weight: 700;
+    border-radius: 50px;
+}
+/*~~~~~~~~~End Key Features~~~~~~~~~~~ */
+
+/*~~~~~~~~~Start Rating ~~~~~~~~~~~ */
+.rating{
+    min-height: 100vh;
+}
+.rating-left{
+    width: 33.333%;
+    padding: 15px;
+    position: sticky;
+    top: 72px;
+    align-self: flex-start;
+}
+
+.rating-card .inner{
+    padding: 32px;
+    border: 1.5px solid #E5E7EB;
+    border-radius: 20px;
+}
+.rating-stars{
+    margin-bottom: 32px;
+}
+.rating-stars .rating-stars-number{
+    font-size: 60px;
+    font-weight: 700;
+}
+.rating-stars-img{
+    margin-bottom: 8px;
+}
+.rating-stars-img img{
+    width: 25px;
+    margin-right: 4px;
+}
+.rating-stars p{
+    margin: 0;
+}
+.rating-percent .bars{
+    margin-bottom: 16px;
+}
+.rating-percent .stars-n{
+    margin-right: 12px;
+}
+.rating-percent span{
+    font-size: 14px;
+    font-weight: 500;
+}
+.rating-percent .bar{
+    margin-right: 12px;
+}
+.rating-percent .percent-bar{
+    width: 200px;
+    height: 12px;
+    border-radius: 50px;
+}
+.rating-percent .fill-bar-1{
+    width: 168px;
+    height: 12px;
+    border-radius: 50px;
+}
+.rating-percent .fill-bar-2{
+    width: 32px;
+    height: 12px;
+    border-radius: 50px;
+}
+.rating-percent .fill-bar-3{
+    width: 10px;
+    height: 12px;
+    border-radius: 50px;
+}
+.rating-percent .fill-bar-4{
+    width: 3px;
+    height: 12px;
+    border-radius: 50px;
+}
+.rating-percent .fill-bar-5{
+    width: 1.5px;
+    height: 12px;
+    border-radius: 50px;
+}
+.rating-botoom{
+    margin-top: 32px;
+    border-top: 0.8px solid #E5E7EB ;
+    padding-top: 24px;
+}
+.rating-botoom .bottom-percent , .rating-botoom .qualit-rating{
+    font-size: 24px;
+    font-weight: 700;
+}
+.rating-right{
+    width: 66.666%;
+    
+}
+.individual-review{
+    padding:32px;
+    border: 1.6px solid #E5E7EB;
+    border-radius: 20px;
+    margin-bottom: 32px;
+}
+.individual-top-left img{
+    width: 52.8px;
+    border: 1.6 solid #6B4EA0;
+    border-radius: 100px;
+    margin-right: 16px;
+}
+.individual-top .individual-stars-img{
+    margin-top: 4px;
+}
+.individual-stars-img span{
+    font-size: 14px;
+}
+.individual-stars-img img{
+    width: 17.5px;
+    margin-right: 4px;
+}
+.individual-top h4 ,.individual-top p{
+    margin-block: 0;
+}
+.individual-top-right span{
+    padding: 2px 12px;
+    border-radius: 50px;
+    background-color: #EDE9FE;
+    color: #5D0EC0;
+    font-size: 14px;
+    font-weight: 600;
+}
+.individual-top-right p{
+    font-size: 14px;
+    margin-top: 4px;
+}
+.rating-right .individual-content{
+    font-size: 18px;
+}
+.rating-right .review-btn{
+    padding-top: 32px;
+}
+.review-btn button{
+    padding: 12px 32px;
+    border: 1.6px solid #7F22FE;
+    background-color: #7F22FE;
+    border-radius: 50px;
+    color: white;
+    font-size: 16px ;
+    font-weight: 700;
+}
+
+/*~~~~~~~~~End Rating ~~~~~~~~~~~ */
+
+
+/*~~~~~~~~~Start Realated Products~~~~~~~~~~~ */
+.realated-products{
+    min-height: 100vh;
+}
+.product-card{
+    width:25%;
+    padding: 15px;
+}
+.product-card .inner{
+    padding: 24px;
+    border: 1.5px solid #E5E7EB;
+    background-color: white;
+    border-radius: 20px;
+}
+.product-card img{
+    border-radius: 20px;
+}
+.product-img{
+    position: relative;
+}
+.product-img .badge-1{
+    color: white ;
+    background-color: #00BBA7 ;
+    padding: 6px 12px;
+    border-radius: 50px;
+    font-size: 15px ;
+    position: absolute;
+    bottom: 80%;
+    left: 5%;
+    font-weight: 500;
+}
+.product-img .badge-2{
+    color: white ;
+    background-color: #00C950 ;
+    padding: 6px 12px;
+    border-radius: 50px;
+    font-size: 15px ;
+    position: absolute;
+    bottom: 80%;
+    left: 5%;
+    font-weight: 500;
+}
+.product-img .badge-3{
+    color: white ;
+    background-color: #00B8DB ;
+    padding: 6px 12px;
+    border-radius: 50px;
+    font-size: 15px ;
+    position: absolute;
+    bottom: 80%;
+    left: 5%;
+    font-weight: 500;
+}
+.product-img .badge-4{
+    color: white ;
+    background-color: #FF6900 ;
+    padding: 6px 12px;
+    border-radius: 50px;
+    font-size: 15px ;
+    position: absolute;
+    bottom: 80%;
+    left: 5%;
+    font-weight: 500;
+}
+.product-card .price{
+    font-size: 24px;
+    font-weight: 700;
+}
+.product-card button{
+    padding: 8px 16px;
+    border: none;
+    border-radius: 50px;
+    color: white;
+    font-size: 16px;
+}
+.Related-btn{
+    margin-top: 48px;
+    
+}
+.Related-btn button{
+    background: white;
+    border: 1.6px solid #7F22FE;
+    padding: 16px 32px;
+    border-radius: 50px;
+    font-size: 15px;
+    font-weight: 600;
+}
+/*~~~~~~~~~END Realated Products~~~~~~~~~~~ */
+
+/*~~~~~~~~~Start Footer~~~~~~~~~~~ */
+.footer p{
+    font-size: 16px;
+    margin-block: 0;
+}
+.footer-brand{
+    width: 30%;
+}
+.footer-brand p{
+    margin-bottom: 24px;
+}
+.social-icons{
+    column-gap: 12px;
+}
+.social-btn{
+    width: 40px;
+    height: 40px;
+    background-color: #1F2937;
+    border-radius: 10px;
+}
+.social-btn img{
+    width: 18px;
+}
+.footer-links-col{
+    width: 20%;
+}
+.footer-links-col h4{
+    font-size: 18px;
+    margin-block: 0 16px;
+}
+.footer-links-col ul{
+    margin-right: 0;
+}
+.footer-links-col li{
+    margin-bottom: 12px;
+}
+.footer-bottom{
+    border-top: 0.8px solid #1F2937;
+    padding-top: 32px;
+}
+.footer-bottom-right{
+    column-gap: 12px;
+}
+.payment-card{
+    width: 60px;
+    height: 36px;
+    border-radius: 8px;
+    padding: 4px;
+}
+.footer-bottom .inner{
+    margin-right: 24px;
+    width: ;
+}
+.payment-card-1 img{
+    width:60px;
+    padding: 12px;
+    background-color: white;
+    border-radius: 20px;
+}
+.payment-card-2 img{
+    width:36px;
+    padding: 12px;
+    background-color: white;
+    border-radius: 20px;
+}
+.payment-card-3 img{
+    width:49.25px;
+    padding: 12px;
+    background-color: white;
+    border-radius: 20px;
+}
+
+/*~~~~~~~~~END Footer~~~~~~~~~~~ */
